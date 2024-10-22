@@ -1,0 +1,56 @@
+[ 
+  {
+    "category": "job",
+    "jobTitle": "Bachelor of Science in Physics, Minor in Mathematics",
+    "dates": "",
+    "company": "Florida State University | Tallahassee, FL",
+    "description": []
+
+  },
+
+  {
+    "category": "job",
+    "jobTitle": "Technical Operations Specialist",
+    "dates": "May 2024 - Present",
+    "company": "International Game Technology | Tallahassee, FL",
+    "description": ["Support the seamless operation of computer systems by executing recovery tasks to restore normal functionality, ensuring uninterrupted service for retailers.", 
+    "Collaborate with Field Service Technicians to diagnose and resolve terminal-specific technical issues efficiently." ,
+    "Engage in company-sponsored learning during downtime, advancing skills in data science and web development through projects in Python and JavaScript."]
+  },
+  {
+    "category": "project",
+    "title": "Spotify Letterboxd",
+    "image": "./images/Spotify-letterboxd.jpeg",
+    "desc": "Developing an interactive music diary by integrating with the Spotify API, allowing users to track their listening habits and favorite tracks.",
+    "description": ["Node.js", "React", "Express"],
+    "github": [true, "https://github.com/ultraluckyclover/Spotify-Letterboxd/tree/restructure-project"],
+    "live": [false]
+ },
+  {
+    "category": "job",
+    "jobTitle": "Operations Supervisor",
+    "dates": "Oct 2022 - Present",
+    "company": "Ology Coffee Co. | Tallahassee, FL",
+    "description": ["Proficient in resolving conflicts and deescalating tense situations among coworkers and patrons, fostering a harmonious and collaborative environment.",
+    "Organize and lead community-focused coffee events, strengthening relationships with local customers and enhancing brand visibility." ,
+     "Generated $150,000 in revenue for the company last year, with weekly profits between $3,000 and $5,000 this year."]
+  },
+  {
+    "category": "project",
+    "title": "Letterboxd Scraper",
+    "image": "./images/scraper.jpeg",
+    "desc": "Program that takes a Letterboxd username as input, organizes the user's watchlist into a database, and returns a randomly selected movie.",
+    "description": ["Python", "Selenium", "Pandas"],
+    "github": [true, "https://github.com/ultraluckyclover/Letterboxd_scraper"],
+    "live": [false]
+ },
+  {
+    "category": "project",
+    "title": "Physics Computation Portfolio",
+    "image": "./images/Physics-computation.jpeg",
+    "desc": "Showcases projects that demonstrate computational methods for numerically solving, analyzing, and visualizing complex physical systems, including data visualization techniques.",
+    "description": ["Python", "NumPy", "Matplotlib"],
+    "github": [true, "https://github.com/ultraluckyclover/Physics-Computation-Portfolio"],
+    "live": [false]
+ }
+  ]
