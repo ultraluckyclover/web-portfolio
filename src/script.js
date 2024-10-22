@@ -171,7 +171,7 @@ setTimeout( () => {
     
     
   });
-}, 1000) });
+}, 10000) });
 
 // Scroll arrow fade in
 
@@ -239,11 +239,7 @@ window.addEventListener('scroll', () => {
 
   header.style.transform = `translateY(${scrollSpeedInner}px)`;
 
-  // if (window.innerWidth > 870) {
-  //   header.style.transform = `translateY(${scrollSpeedInner}px)`;
-  // } else {
-  //   header.style.transform = 'none'; // No parallax effect on small screens
-  // }
+
 });
 
 
@@ -264,67 +260,6 @@ window.addEventListener('scroll', () => {
 
   hero.style.opacity = opacity;
 
-  // icons.forEach ( icon => {
-  //   icon.style.opacity = 1;
-  // });
-
-  // if (scrollY > windowHeight){
-  //   icons.forEach( icon => {
-  //     icon.style.color = 'var(--secondary-color)';
-  //     nav.style.zIndex = '-100';
-  //   })}
-  // else {
-  //   icons.forEach ( icon => {
-  //     icon.style.color = 'var(--bg-color)';
-  //     nav.style.zIndex = '100';
-  //   })
-  // }
-
-  // Icons scroll color
-
-
-  // const maxScroll = document.body.scrollHeight - window.innerHeight;
-
-  // // Calculate scroll ratio (0 at top, 1 at bottom)
-  // const scrollRatio = (scrollY / maxScroll) * 3;
-
-  // // Get the RGB values for your CSS variables
-  // const bgColor = getComputedStyle(document.documentElement).getPropertyValue('--bg-color').trim();
-  // const secondaryColor = getComputedStyle(document.documentElement).getPropertyValue('--secondary-color').trim();
-
-  // // Convert hex color to RGB
-  // const bgColorRGB = hexToRgb(bgColor);
-  // const secondaryColorRGB = hexToRgb(secondaryColor);
-
-  // // Calculate the intermediate color based on scroll
-  // const r = Math.floor(bgColorRGB.r + (secondaryColorRGB.r - bgColorRGB.r) * scrollRatio);
-  // const g = Math.floor(bgColorRGB.g + (secondaryColorRGB.g - bgColorRGB.g) * scrollRatio);
-  // const b = Math.floor(bgColorRGB.b + (secondaryColorRGB.b - bgColorRGB.b) * scrollRatio);
-
-  // const scrollText = document.querySelector('.fa-arrow-circle-o-down');
-  
-  // // Set the new color dynamically
-  // scrollText.style.color = `rgb(${r}, ${g}, ${b})`;
-
-
-  // // header speed
-
-  // const scrollSpeedInner = scrollY * 0.4;
-  // const inner = document.querySelector('.innerBox');
-
-  // inner.style.transform = `translateY(${scrollSpeedInner}px)`;
-
-
 });
 
-// function hexToRgb(hex) {
-//   const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-//   hex = hex.replace(shorthandRegex, (r, g, b) => r + r + g + g + b + b);
-//   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-//   return result ? {
-//     r: parseInt(result[1], 16),
-//     g: parseInt(result[2], 16),
-//     b: parseInt(result[3], 16)
-//   } : null;
-// }
 
