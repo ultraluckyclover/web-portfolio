@@ -53,7 +53,7 @@ body {
   color: var(--primary-color)
 }
 
-#hero p {
+header p {
   font-size: 2vw;
   line-height: 5vh;
 }
@@ -64,11 +64,27 @@ nav {
   height: 13vh;
   width: 100vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: transparent;
   padding-right: 20px;
+  padding-left: 20px;
 }
+
+#hero nav #sourceLink{
+  transition-duration: color 300ms ease-in;
+  font-size: 1.5vw;
+}
+
+#hero nav #sourceLink:hover {
+  transform: scale(1.01);
+  color: var(--primary-color)
+
+
+}
+
+
+
 
 .links {
   display: flex;
@@ -288,6 +304,10 @@ a:hover .fa {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  nav p {
+    display: none;
+  }
   
   .links {
     display: flex;
@@ -320,7 +340,7 @@ a:hover .fa {
   #pHead, #jHead {
     text-align: center;
     margin: 0;
-    font-size: 10vw;
+    font-size: 7vw;
   }
 
  
@@ -335,7 +355,7 @@ a:hover .fa {
 
   .project h2 {
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
   }
 
 
@@ -361,15 +381,12 @@ a:hover .fa {
   /* JOBS */
 
   .job {
-    overflow-x: auto;
     max-width: 100%; 
     overflow-wrap: break-word;
   }
 
   .job span h2 {
-
-    line-height: 6vh;
-
+    line-height: 2.8vh;
   }
 
 
