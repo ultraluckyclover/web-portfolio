@@ -26,7 +26,7 @@
     "image": "./images/Spotify-letterboxd.jpeg",
     "desc": "Developing an interactive music diary by integrating with the Spotify API, allowing users to track their listening habits and favorite tracks.",
     "description": ["Node.js", "React", "Express"],
-    "github": [true, "https://github.com/ultraluckyclover/Spotify-Letterboxd/tree/restructure-project"],
+    "github": [true, "https://github.com/ultraluckyclover/Spotify-Letterboxd"],
     "live": [false]
  },
   {
