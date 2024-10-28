@@ -37,8 +37,21 @@ body {
   color: var(--header-color);
   width: 100vw;
   height: 100vh;
-  text-align: center;
-  padding-top: 40vh;
+  /* text-align: right; */
+  padding-top: 30vh;
+}
+
+#hero header #big {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#hero header #titleContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  text-align: right;
 }
 
 #hero h2 {
@@ -53,9 +66,15 @@ body {
   color: var(--primary-color)
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
 header p {
   font-size: 2vw;
-  line-height: 5vh;
+  line-height: 40px;
 }
 
 nav {
@@ -83,6 +102,18 @@ nav {
 
 }
 
+#hero header #titleContainer #name {
+  width: 60vw;
+}
+
+#hero #headshot {
+  position: relative;
+  height: 100%;
+  margin: 20px;
+  z-index: 0;
+  
+}
+
 
 
 
@@ -91,10 +122,13 @@ nav {
   width: 25vw;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .links i {
   font-size: 54px;
+  position: relative;
+  z-index: 100;
 
 }
 
@@ -322,11 +356,29 @@ a:hover .fa {
 
   #hero h2 span {
     font-size: 10vw;
+    
   }
 
  #hero p {
     font-size: 4vw;
   }
+
+  #hero header #titleContainer #name {
+    width: 100%;
+  }
+
+  #hero header {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #hero header #titleContainer img {
+    height: 30vh;
+    width: auto;
+  }
+
+  
 
   /* PROJECTS  */
 

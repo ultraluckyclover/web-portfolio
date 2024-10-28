@@ -235,7 +235,7 @@ iconTwo.addEventListener('click', (event) => {
 
 window.addEventListener('scroll', () => {
   const scrollSpeedInner = scrollY * 0.4;
-  const header = document.querySelector('header');
+  const header = document.querySelector('#titleContainer');
 
   header.style.transform = `translateY(${scrollSpeedInner}px)`;
 
