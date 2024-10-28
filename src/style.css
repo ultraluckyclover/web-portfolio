@@ -39,6 +39,7 @@ body {
   height: 100vh;
   /* text-align: right; */
   padding-top: 30vh;
+  
 }
 
 #hero header #big {
@@ -88,6 +89,7 @@ nav {
   background-color: transparent;
   padding-right: 20px;
   padding-left: 20px;
+  z-index: 100;
 }
 
 #hero nav #sourceLink{
@@ -337,6 +339,8 @@ a:hover .fa {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: var(--secondary-color);
+    
   }
 
   nav p {
@@ -361,22 +365,42 @@ a:hover .fa {
 
  #hero p {
     font-size: 4vw;
+    line-height: 20px;
   }
 
   #hero header #titleContainer #name {
     width: 100%;
   }
 
+  #hero header #titleContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    text-align: center;
+  }
+
   #hero header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     
   }
 
-  #hero header #titleContainer img {
-    height: 30vh;
-    width: auto;
+  #hero #headshot {
+    height: auto;
+    width: 50%;
+    text-align: center;
+    
+    background-color: rgba(255, 255, 255, 0.5);
   }
+
+  /* #hero #headshot {
+  position: relative;
+  height: 100%;
+  margin: 20px;
+  z-index: 0;
+  
+} */
 
   
 

@@ -237,7 +237,13 @@ window.addEventListener('scroll', () => {
   const scrollSpeedInner = scrollY * 0.4;
   const header = document.querySelector('#titleContainer');
 
-  header.style.transform = `translateY(${scrollSpeedInner}px)`;
+  if (window.innerWidth > 870){
+    header.style.transform = `translateY(${scrollSpeedInner}px)`;
+
+
+  }
+
+  // header.style.transform = `translateY(${scrollSpeedInner}px)`;
 
 
 });
